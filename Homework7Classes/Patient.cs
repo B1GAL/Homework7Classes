@@ -92,11 +92,13 @@ namespace Homework7Classes
             {
                 Console.ForegroundColor = ConsoleColor.DarkRed;
                 Console.WriteLine("Patient has already been administered the vaccine.");
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
             }
             else
             {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Patient has been administered vaccine.");
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
                 FluVaccineYN = true;
             }
 
